@@ -468,9 +468,3 @@ Citizen.CreateThread(function()
         end
     end
 end)
-
-RegisterCommand('pedssss', function()
-    if Config.PedOnHack1 == true then
-        TriggerEvent('nxte-yacht:client:SpawnNPC', 1)
-    end
-end)
